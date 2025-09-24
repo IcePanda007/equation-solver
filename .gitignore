@@ -1,0 +1,13 @@
+```gitignore
+# Virtual environment
+venv/
+env/
+
+# PyCharm
+.idea/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
