@@ -134,7 +134,7 @@ class EquationSolver(BoxLayout):
             # Если преобразование невозможно, возвращаем исходное решение
             return str(solution)
 
-    def solve(self):
+    def solve(self, instance):
         """
         ОСНОВНОЙ МЕТОД РЕШЕНИЯ УРАВНЕНИЯ
         Объединяет возможности Kivy (GUI) и SymPy (математика)
